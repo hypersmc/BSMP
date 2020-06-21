@@ -1,0 +1,61 @@
+{
+  "Server": {
+    "ServerHubName": "",
+    "Port": 3700,
+    "Tickrate": 30,
+    "TryUPnP": true,
+    "EnableWebSocketServer": false,
+    "EnableWebSocketRoomInfo": false,
+    "EnableWebSocketRCON": false,
+    "RCONPassword": "changeme",
+    "WebSocketPort": 3701,
+    "SecureWebSocket": false,
+    "WebSocketCertPath": null,
+    "WebSocketCertPass": null,
+    "ShowWindowTitle": false,
+    "ShowTickrateInTitle": true,
+    "AllowEventMessages": true,
+    "AllowVoiceChat": true,
+    "ShowTickEventExceptions": false,
+    "SendCrashReports": true,
+    "EnableInteractiveShell": true
+  },
+  "Radio": {
+    "EnableRadio": false,
+    "NextSongPrepareTime": 90.0,
+    "ResultsShowTime": 15.0,
+    "RadioChannels": [
+      {
+        "ChannelName": "Radio Channel",
+        "ChannelIconUrl": "https://cdn.akaku.org/akaku-radio-icon.png",
+        "PreferredDifficulty": "Expert",
+        "JoinMessages": [
+          "{0} joined us!"
+        ],
+        "DefaultSongIDs": []
+      }
+    ]
+  },
+  "Logger": {
+    "LogsDir": "Logs/"
+  },
+  "Access": {
+    "Blacklist": [
+      "76561201521433077",
+      "IGGGAMES",
+      "76561199437989403",
+      "VALVE"
+    ],
+    "WhitelistEnabled": false,
+    "Whitelist": []
+  },
+  "Misc": {
+    "PlayerColors": {}
+  },
+  "TournamentMode": {
+    "Enabled": false,
+    "RoomNameTemplate": "Tournament Room {0}",
+    "Rooms": 4,
+    "Password": ""
+  }
+}
